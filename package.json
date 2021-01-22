@@ -1,0 +1,31 @@
+{
+  "name": "Health_Care_Providers_API_Wrapper",
+  "version": "1.0.0",
+  "description": "This wrapper is made from a class that sets properties based on the parameter passed in the functions called. All functions return thier calling object and as result the call can be stringed. The only  method that does not return an object is the get method, it returns the result of the API call based on the parameters passed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "test-dev": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solaries/Health_Care_Providers_API_Wrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solaries/Health_Care_Providers_API_Wrapper/issues"
+  },
+  "homepage": "https://github.com/solaries/Health_Care_Providers_API_Wrapper#readme",
+  "dependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.2",
+    "supertest": "^6.1.1"
+  }
+}
